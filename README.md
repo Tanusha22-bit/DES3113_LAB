@@ -1,16 +1,27 @@
-# staff_crud_lab
+# DES3113_LAB
+A mobile application built with **Flutter** and **Firebase** that allows users to manage staff records with full **CRUD functionality** (Create, Read, Update, Delete).
 
-A new Flutter project.
+## 🚀 Features
 
-## Getting Started
+- ✅ Add new staff with ID, name, and age
+- 📋 View all staff in a scrollable, styled list
+- ✏️ Edit staff details
+- ❌ Delete staff records with confirmation
+- 🔄 Real-time updates with Firebase Firestore
 
-This project is a starting point for a Flutter application.
+## 📱 Screens
 
-A few resources to get you started if this is your first Flutter project:
+| Page         | Description                      |
+|--------------|----------------------------------|
+| Add Staff    | Form to create a new staff record |
+| Staff List   | Displays all staff in cards       |
+| Edit Staff   | Update staff details              |
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🏗️ Folder Structure
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+lib/
+├── add_staff.dart # Add new staff
+├── staff_list.dart # Display staff list
+├── edit_staff.dart # Edit staff info
+└── main.dart # App entry point
+
